@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.app-container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(231, 231, 231);
+    
+}
+@media screen and (min-width: 400px) {
+    .app-container h1 {
+      margin-bottom: 50px;
+    }
+  }
+.img{
+    padding: 5px;
+    width: 200px;
+}
+
+.input-label{
+    display: flex;
+    margin-top: 8px;
+    font-size: 15px;
+    
+}
+@media screen and (min-width: 400px) {
+    .input-label{
+        margin-left: 10px;
+        font-size: large;
+    }
+}
+
+input[type="text"]{
+    margin-top: 5px;
+    padding: 7px;
+    border-radius: 5px;
+    border-style: none;
+    width: 100%;    
+    
+}
+@media screen and (min-width: 400px) {
+    input[type="text"]{
+        margin-left: 40px;
+       width: 300px;
+       padding: 9px;
+    }
+  }
+button{
+    margin-top: 10px;
+    padding: 12px;
+    margin-right: 5px;
+    border-radius: 5px;
+    border-style: none;
+    cursor: pointer;
+}
+.btn1{
+    color: white;
+    background-color: rgb(4, 8, 227);
+    margin-left: 100px;
+    
+}
+@media screen and (min-width: 400px) {
+    .btn1{
+          width: 200px;
+        
+    }
+  }
+.btn1:hover{
+    box-shadow: 1px 6px 14px 0px rgba(0,0,0,0.63);
+    -webkit-box-shadow: 1px 6px 14px 0px rgba(0,0,0,0.63);
+    -moz-box-shadow: 1px 6px 14px 0px rgba(0,0,0,0.63);
+}
+.btn2{
+    background-color: rgb(8, 186, 8);
+    color: white;
+}
+@media screen and (min-width: 400px) {
+    .btn2{
+          width: 200px;
+          margin-left: 100px;
+    }
+  }
+.btn2:hover{
+    box-shadow: 1px 6px 14px 0px rgba(0,0,0,0.63);
+-webkit-box-shadow: 1px 6px 14px 0px rgba(0,0,0,0.63);
+-moz-box-shadow: 1px 6px 14px 0px rgba(0,0,0,0.63);
+}
+@media screen and (min-width: 400px) {
+    .btn{
+        display:inline-block;
+        margin-top:10px;
+    }
+  }
+
+.app-container h1{
+    font-weight: 900;
+    font-size: 20px;
+    color: rgb(55, 19, 183);
+}
+.app-container p{
+    margin-top: 20px;
+    font-weight: bold;
+    
+}
